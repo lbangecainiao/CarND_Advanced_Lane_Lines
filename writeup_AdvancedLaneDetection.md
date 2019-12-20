@@ -1,10 +1,5 @@
-## Writeup Template
+## Advanced Lane Finding Project**
 
-### You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
-
----
-
-**Advanced Lane Finding Project**
 
 The goals / steps of this project are the following:
 
@@ -130,5 +125,7 @@ Here's a [link to my video result](./output_images/ProjectLines.mp4)
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
 1.The selection of the source points during the perspective transform has a large impact on the results. A proper criteria to select the source points should be established.
+
 2.A better sturcture of the codes can be adopted. Codes of different functions might be stored in different files.
+
 3.The parameters(threshold of s channel etc.) are tuned only for a certain road condition. The pipeline might fall for other road conditions.
